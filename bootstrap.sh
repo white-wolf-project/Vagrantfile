@@ -57,3 +57,5 @@ if [[ ! -e "/home/vagrant/.oh-my-zsh" ]]; then
 	echo "source /home/vagrant/.oh-my-zsh/oh-my-zsh.sh" >> /home/vagrant/.zshrc
 	zsh
 fi
+
+chown -R vagrant /var/www/html
